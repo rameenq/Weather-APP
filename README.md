@@ -16,7 +16,11 @@ The Weather Dashboard is a web application that allows users to search for the c
 
 Follow this link to the deployed application: https://rameenq.github.io/Weather-APP/index.html
 
-image.png image.png
+
+<img width="1191" alt="Screenshot 2023-08-08 at 4 00 00 am" src="https://github.com/rameenq/Weather-APP/assets/126428649/1ac6dfe0-cb90-462d-a3f7-05997fdb16ba">
+
+<img width="1312" alt="Screenshot 2023-08-08 at 3 59 14 am" src="https://github.com/rameenq/Weather-APP/assets/126428649/ab79fa38-c28f-47cf-84c3-f37594f3b1b1">
+
 
 ## Usage
 
