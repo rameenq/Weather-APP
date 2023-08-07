@@ -14,8 +14,9 @@ The Weather Dashboard is a web application that allows users to search for the c
 
 ## Getting Started
 
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser.
+Follow this link to the deployed application: https://rameenq.github.io/Weather-APP/index.html
+
+image.png image.png
 
 ## Usage
 
