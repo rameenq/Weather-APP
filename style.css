@@ -1,0 +1,79 @@
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0; /* Remove default margin to prevent extra space around the body */
+    padding: 0; /* Remove default padding to prevent extra space around the body */
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes up the entire viewport height */
+  }
+  
+  /* Style the header title */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  
+  .weather-card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  /* Style the Australian cities buttons */
+  #australian-cities {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  /* Adjust the button width to fit the container */
+  #australian-cities .btn {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 20px;
+  }
+  
+  /* Override Bootstrap button styles for the custom button */
+  .custom-btn {
+    background-color: transparent;
+    border: none;
+    color: #15283c; /* Set the text color */
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-decoration: none;
+  }
+  
+  .custom-btn:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Add a slight hover effect for visibility */
+  }
+  
+  /* Vertically center the content in the container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .weather-card {
+      margin: 5px;
+    }
+  }
+  

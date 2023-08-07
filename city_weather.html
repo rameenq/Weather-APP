@@ -1,0 +1,35 @@
+<!-- city_weather.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="index.html" class="custom-btn btn btn-primary mt-3 mb-3 p-3 btn-lg btn-block">Weather Dashboard</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div id="australian-cities" class="list-group">
+          <!-- Australian cities as buttons will be dynamically added here -->
+        </div>
+      </div>
+      <div class="col-md-9">
+        <h2 class="mb-3" id="city-name"></h2>
+        <div id="weather-results" class="row justify-content-center">
+          <!-- The 5-day weather forecast will be dynamically inserted here -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script2.js"></script>
+</body>
+</html>

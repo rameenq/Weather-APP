@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Add the Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Weather App</h1>
+        <div class="row justify-content-center mb-3">
+            <div class="col-md-6">
+                <form id="search-form" class="rounded-pill d-flex">
+                    <input type="text" id="city-input" class="form-control mr-2" placeholder="Enter a city">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-3" id="australian-cities"></div>
+        <div class="row justify-content-center mb-3" id="major-cities"></div>
+        <div id="weather-results"></div>
+        <div class="search-history-container">
+            <h2 class="text-center">Search History</h2>
+            <ul id="search-history" class="list-group"></ul>
+            <button id="clear-search-history" class="btn btn-danger btn-sm btn-block rounded-pill">Clear Search History</button>
+        </div>
+    </div>
+
+    <!-- Add the Bootstrap JS link -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
